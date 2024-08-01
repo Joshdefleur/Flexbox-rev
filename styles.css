@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  /* navbar */
   
   .menu-container {
     color: #fff;
@@ -25,6 +27,8 @@
     justify-content: flex-end;
   }
 
+  /* login */
+
   .login {
     margin-left: 20px;
   }
@@ -44,4 +48,21 @@
     align-items: center;
   }
 
-  
+  /* Grid section */
+
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+  }
